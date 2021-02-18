@@ -19,7 +19,7 @@ A clear and concise description of what the bug is.
 4. See error
 
 ### Environment
-* Bugsnag version:
+* Bugsnag Go Gin version:
 * Go version:
 * Gin framework version:
 
