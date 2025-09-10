@@ -26,7 +26,7 @@ jobs:
       with:
         go-version: ${{ matrix.go-version }}
     - name: install dependencies
-      run: go get -v -d -t ./...
+      run: go get -v -d ./...
     - name: run tests
       run: go test $(go list ./... | grep -v /features/)
     - name: vet package
